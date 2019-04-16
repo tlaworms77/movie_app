@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/tlaworms77/movie_app/precache-manifest.0d03f386f40fe8b2897b387a0a91be67.js"
+  "/github.io/movie_app/precache-manifest.5eb4a53c1152604a4672508b13bcdbee.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/tlaworms77/movie_app/index.html", {
+workbox.routing.registerNavigationRoute("/github.io/movie_app/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
